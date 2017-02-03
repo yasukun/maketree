@@ -2,6 +2,12 @@
 
 Command to mkdir and touch from the output result of the tree command
 
+## instll
+
+```
+$ go get github.com/yasukun/maketree
+```
+
 ## usage
 
 ```
