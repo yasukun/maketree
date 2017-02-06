@@ -131,6 +131,7 @@ func ScanAndClean(treetxtpath string) (string, error) {
 	if err != nil {
 		return "", err
 	}
+	defer fp.Close()
 	reader := bufio.NewReader(fp)
 	linecount := 0
 	for {
